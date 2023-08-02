@@ -60,7 +60,7 @@ def select():
     for pro_athlete in records:
         pro_athelte_table+="<tr>"
         for about in pro_athlete:
-            pro_athelte_table+="<td>()</td>".format(about)
+            pro_athelte_table+="<td>{}</td>".format(about)
         pro_athelte_table+="</tr>"
     pro_athelte_table+="</table>"
     return pro_athelte_table
