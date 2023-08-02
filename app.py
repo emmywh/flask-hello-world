@@ -57,7 +57,7 @@ def select():
     conn.close()
     pro_athelte_table = ""
     pro_athelte_table+="<table>"
-    for pro_athelete in records:
+    for pro_athlete in records:
         pro_athelte_table+="<tr>"
         for about in pro_athlete:
             pro_athelte_table+="<td>()</td>".format(about)
